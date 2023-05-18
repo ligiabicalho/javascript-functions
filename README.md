@@ -34,9 +34,9 @@ No seu time de desenvolvimento, você ficou responsável por implementar o códi
 
 1. Clone o repositório
 
-   * Use o comando: `git clone git@github.com:tryber/sd-0x-exercise-playground-functions.git`
+   * Use o comando: `git clone git@github.com:tryber/sd-034-exercise-playground-functions.git`
    * Entre na pasta do repositório que você acabou de clonar:
-     * `cd sd-0x-exercise-playground-functions`
+     * `cd sd-034-exercise-playground-functions`
 
 2. Instale as dependências
 
@@ -71,13 +71,13 @@ No seu time de desenvolvimento, você ficou responsável por implementar o códi
 
 6. Crie um novo `Pull Request` _(PR)_
 
-   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-exercise-playground-functions/pulls)
+   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-034-exercise-playground-functions/pulls)
    * Clique no botão verde _"New pull request"_
    * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
    * Adicione uma descrição para o Pull Request, um título que o identifique, e clique no botão verde "Create pull request". Crie da seguinte forma: `[JOAOZINHO] Playground Functions`
    * Adicione uma descrição para o Pull Request, um título nítido que o identifique, e clique no botão verde _"Create pull request"_
    * **Não se preocupe em preencher mais nada por enquanto!**
-   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-exercise-playground-functions/pulls) e confira se o seu _Pull Request_ está criado
+   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-034-exercise-playground-functions/pulls) e confira se o seu _Pull Request_ está criado
 
 </details>
 
