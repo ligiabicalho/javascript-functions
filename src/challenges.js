@@ -38,7 +38,7 @@ module.exports = {
   splitSentence: typeof splitSentence === 'function' ? splitSentence : (() => {}),
   footballPoints: typeof footballPoints === 'function' ? footballPoints : (() => {}),
   addMusics: typeof addMusics === 'function' ? addMusics : (() => {}),
-  playlist,
+  playlist: typeof playlist === 'function' ? playlist : (() => {}),
   moreExpensive: typeof moreExpensive === 'function' ? moreExpensive : (() => {}),
   checkItem: typeof checkItem === 'function' ? checkItem : (() => {}),
   addNewItem: typeof addNewItem === 'function' ? addNewItem : (() => {}),
