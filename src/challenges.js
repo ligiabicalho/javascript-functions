@@ -40,13 +40,21 @@ function moreExpensive(data, category) {
 function checkItem(data, category, item) {
   for (let i = 0; i < data[category].length; i += 1){
     if(data[category][i].name == item){
-      return True
+      return true
     }
   } 
-  return False
+  return false
 }
 
 // Requisito 6 - Crie uma função que adiciona um novo item caso ele ainda não exista
+function addNewItem(data, category, item, price, ingredients, calories){
+  if(checkItem(data, category, item)){
+    return `O produto: "${item}" já existe!`
+  }
+  new_item = {item, price, ingredients, calories}
+  data[category].push(new_item)
+  return new_item
+}
 
 // Requisito 7 - Crie uma função que conta a quantidade de pessoas por gênero
 
