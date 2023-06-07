@@ -57,13 +57,26 @@ function addNewItem(data, category, item, price, ingredients, calories){
 }
 
 // Requisito 7 - Crie uma função que conta a quantidade de pessoas por gênero
-
+function counterGender(guestsDatabase){
+  let male = 0
+  let female = 0
+  for (let i = 0; i < guestsDatabase.guests.length; i += 1){
+    if(guestsDatabase.guests[i].gender === 'male'){
+      male += 1;
+    } else {
+      female += 1;
+    }
+  }
+  return { male, female }
+}
 // =================================================
 // PARTE 3
 // =================================================
 
 // Requisito 8 - Crie uma função que retorna os elementos de um determinado estado
-
+function filterState(){
+  
+}
 // Requisito 9 - Crie uma função que altera a propriedade `picture`
 
 // Requisito 10 - Crie um função que gera um relatório
