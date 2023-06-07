@@ -84,7 +84,12 @@ function filterState(guestsDatabase, state){
   return elements
 }
 // Requisito 9 - Crie uma função que altera a propriedade `picture`
-
+function changePicture(guestsDatabase, link){
+  for(let i = 0; i < guestsDatabase.guests.length; i += 1){
+    guestsDatabase.guests[i].picture = link;
+  }
+  return guestsDatabase.guests
+}
 // Requisito 10 - Crie um função que gera um relatório
 
 // Não modifique as linhas abaixo
