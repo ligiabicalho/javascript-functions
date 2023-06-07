@@ -7,8 +7,8 @@ describe('6 - Crie uma função que adiciona um novo item caso ele ainda não ex
     expect(menu.sideDishes.includes(item)).toBe(true);
   });
 
-  it('Retorne "true" quando a categoria for "sandwiches" e o nome do elemento for "X-Poderosas"', () => {
-    let item = addNewItem(menu, 'sandwiches', 'X-Poderosas', 108.75, ['açúcar', 'tempero', 'tudo o que há de bom', 'elemento X'], 99999);
+  it('Retorne "true" quando a categoria for "sandwiches" e o nome do elemento for "X-Veg"', () => {
+    let item = addNewItem(menu, 'sandwiches', 'X-Veg', 108.75, ['tempero', 'tudo o que há de bom', 'elemento X'], 99999);
     expect(menu.sandwiches.includes(item)).toBe(true);
   });
 
